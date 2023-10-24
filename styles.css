@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+}
+
+header button {
+    background-color: rgb(97, 97, 255);
+    cursor: pointer;
+    border: none;
+}
+
+header button:hover {
+    background-color: rgb(168, 168, 255);
+}
+
+#novaLista {
+    margin: 10px 0;
+    padding: 2px 100px;
+}
+
+form {
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+form input {
+    padding-right: 40px;
+    outline: none;
+}
+
+form input:hover {
+    border: rgb(0, 255, 21) solid;
+}
+
+form button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(97, 97, 255);;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(168, 168, 255);
+}
+
+
+
+ul {
+    width: 900px;
+    height: 200px;
+}
+
+ul li {
+    padding: 5px 0;
+    max-width: 200px;
+    width: 100%;
+    margin: 5px auto 5px auto;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
